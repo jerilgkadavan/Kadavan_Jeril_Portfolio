@@ -1,0 +1,12 @@
+// import variables
+@import '_vars';
+
+// import utilities rules
+@import '_utilities';
+
+// import modules components
+@import 'modules/_header';
+
+body {
+   background-color: rgb(255, 0, 149); 
+}
