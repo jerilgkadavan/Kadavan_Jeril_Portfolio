@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570.583 307.768">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-3 {
+        fill: #da0302;
+        opacity: 0.52;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="edu_work_img" transform="translate(-375.826 -1847.296)">
+    <line id="Line_4" data-name="Line 4" class="cls-1" x2="460.015" transform="translate(407.72 1987.589)"/>
+    <text id="Education" class="cls-2" transform="translate(375.826 2012.482)"><tspan x="0" y="0">Education</tspan></text>
+    <text id="Work-Experience" class="cls-2" transform="translate(835.409 1967.883)"><tspan x="0" y="0">Work-Experience</tspan></text>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-3" width="109.585" height="104.402" rx="23" transform="translate(434.237 1857.296)"/>
+    <text id="_2011-2014_BSC_Animation_in_St_Alberts_College_Cochin_Kerala" data-name="2011-2014
+BSC Animation 
+in 
+St Alberts College
+Cochin, Kerala" class="cls-4" transform="translate(486.874 1874.019)"><tspan x="-29.376" y="0">2011-2014</tspan><tspan x="-42.94" y="17">BSC Animation </tspan><tspan x="-6.759" y="34">in </tspan><tspan x="-48.779" y="51">St Alberts College</tspan><tspan x="-39.867" y="68">Cochin, Kerala</tspan></text>
+    <line id="Line_7" data-name="Line 7" class="cls-5" y2="22.027" transform="translate(599.948 1987.238)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-3" width="109.585" height="114.402" rx="23" transform="translate(543.951 2008.662)"/>
+    <text id="_2014_-_2015_Worked_as_3D_Animator_in_rush2ideas_in_Cochin_Kerala_India" data-name="2014 - 2015
+Worked as 3D 
+Animator in 
+rush2ideas in 
+Cochin, Kerala, 
+India" class="cls-4" transform="translate(599.541 2027.638)"><tspan x="-32.493" y="0">2014 - 2015</tspan><tspan x="-40.5" y="17">Worked as 3D </tspan><tspan x="-34.424" y="34">Animator in </tspan><tspan x="-39.185" y="51">rush2ideas in </tspan><tspan x="-42.896" y="68">Cochin, Kerala, </tspan><tspan x="-13.887" y="85">India</tspan></text>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-3" width="109.585" height="114.402" rx="23" transform="translate(653.536 1847.296)"/>
+    <text id="_2015_-_2016_Worked_as_3D_Animator_in_webrosmedia_in_Cochin_Kerala_India" data-name="2015 - 2016
+Worked as 3D 
+Animator in 
+webrosmedia in 
+Cochin, Kerala, 
+India" class="cls-4" transform="translate(708.718 1865.34)"><tspan x="-32.493" y="0">2015 - 2016</tspan><tspan x="-40.5" y="17">Worked as 3D </tspan><tspan x="-34.424" y="34">Animator in </tspan><tspan x="-46.441" y="51">webrosmedia in </tspan><tspan x="-42.896" y="68">Cochin, Kerala, </tspan><tspan x="-13.887" y="85">India</tspan></text>
+    <line id="Line_5" data-name="Line 5" class="cls-5" y2="24.938" transform="translate(489.029 1962.3)"/>
+    <path id="Path_18" data-name="Path 18" class="cls-5" d="M0,0V24.938" transform="translate(710.737 1962.3)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-5" y2="22.027" transform="translate(813.885 1987.238)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="121.585" height="146.402" rx="23" transform="translate(751.888 2008.662)"/>
+    <text id="Continuing_my_studies_in_Fanshawe_college_London_Ontario_Canada_to_enhance_my_knowledge_in_Interactive_Media_Design" data-name="Continuing my 
+studies in Fanshawe
+college, London, 
+Ontario Canada
+ to enhance my 
+knowledge in
+Interactive Media
+Design" class="cls-4" transform="translate(812.578 2027.52)"><tspan x="-42.302" y="0">Continuing my </tspan><tspan x="-56.435" y="17">studies in Fanshawe</tspan><tspan x="-46.998" y="34">college, London, </tspan><tspan x="-44.115" y="51">Ontario Canada</tspan><tspan x="-44.555" y="68" xml:space="preserve"> to enhance my </tspan><tspan x="-37.096" y="85">knowledge in</tspan><tspan x="-48.363" y="102">Interactive Media</tspan><tspan x="-19.09" y="119">Design</tspan></text>
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" class="cls-6" cx="4.328" cy="4.328" rx="4.328" ry="4.328" transform="translate(406.141 1983.325)"/>
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" class="cls-6" cx="4.328" cy="4.328" rx="4.328" ry="4.328" transform="translate(862.457 1983.325)"/>
+  </g>
+</svg>

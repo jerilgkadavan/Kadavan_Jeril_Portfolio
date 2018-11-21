@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.5 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 41px;
+        font-family: HerrVonMuellerhoff-Regular, Herr Von Muellerhoff;
+      }
+    </style>
+  </defs>
+  <g id="Logo_main" transform="translate(0.609 9.199)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="237.113" height="40.818" transform="translate(12.778 1.579)"/>
+    <text id="Jeril_G_Kadavan" data-name="Jeril G Kadavan" class="cls-2" transform="translate(12.391 28.801)"><tspan x="0" y="0">Jeril G Kadavan</tspan></text>
+    <g id="Group_21" data-name="Group 21" transform="translate(3.605 29.784)">
+      <path id="Path_28" data-name="Path 28" class="cls-3" d="M7.4,84.743l28.756-1.33,28.71-1.238,57.512-2.385,57.512-2.11,28.756-1.009L237.4,75.8l-28.756,1.33-28.756,1.238-57.467,2.339L64.912,82.863l-28.756.963Z" transform="translate(-7.4 -75.8)"/>
+    </g>
+    <path id="Path_29" data-name="Path 29" class="cls-1" d="M20.4,86.3" transform="translate(-10.832 -51.7)"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-3" cx="0.459" cy="0.459" r="0.459" transform="translate(229.481 27.491)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-3" cx="0.459" cy="0.459" r="0.459" transform="translate(224.895 31.619)"/>
+  </g>
+</svg>

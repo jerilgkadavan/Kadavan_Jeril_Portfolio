@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 677.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #da0302;
+        font-size: 40px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #da0302;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="tagline_img" transform="translate(-196.979 -349)">
+    <text id="HELLO_I_M" data-name="HELLO, I&apos;M" class="cls-1" transform="translate(196.979 606) rotate(-90)"><tspan x="21.684" y="43">HELLO, I&apos;M</tspan></text>
+    <line id="header_line" class="cls-2" y2="387" transform="translate(222.5 639.5)"/>
+  </g>
+</svg>
