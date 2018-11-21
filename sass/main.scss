@@ -48,10 +48,12 @@ body, section, div, p, ul, li, a {
   }
 
   #tagLine{
-      width: 62px;
+      width: 3.875em;
+        margin-top: 3em;
   }
   #jeril{
-      width: 339px;
+      width: 21.188em;
+      margin-top: 2em;
       
   }
   #mianPoster{
@@ -126,7 +128,42 @@ body, section, div, p, ul, li, a {
     color:  $color_grey;
     transition: .5s ease-in-out;
 }
-
+.letterWhite{
+    color: $text_color_white;
+}
+.headings{
+    color: $text_color_red;
+    font-weight: bold;
+    font-size: 3.125em;
+    margin-top: 4em;
+    margin-left:1.563em;
+    margin-bottom: 25px;
+}
+#developmenIcon{
+    width: 6.063em;
+    
+}
+#designIcon{
+    width: 5.500em;
+    
+}
+#animaitonIcon{
+    width: 6.625em;
+    
+}
+#developmentTextBox{
+    padding: 4px;
+    margin-left: -81px;
+}
+.threeSkillsHeading{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.875em;
+}
+.developmentText{
+    text-align: center;
+    font-size: 1.250em;
+}
 
 
 
@@ -189,6 +226,13 @@ body, section, div, p, ul, li, a {
     }
     #hobbiesImg{
         width: 227px;
+    }
+    #skillsHeading{
+        color: $text_color_red;
+        font-weight: bold;
+        font-size: 1.875em;
+        margin-top: 4em;
+        margin-left: 1.250em;
     }
 
   }
