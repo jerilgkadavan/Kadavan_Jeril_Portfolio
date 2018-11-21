@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358.025 331.057">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #da0302;
+      }
+
+      .cls-1, .cls-3, .cls-5 {
+        opacity: 0.3;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        font-family: OpenSans, Open Sans;
+      }
+
+      .cls-4 {
+        font-size: 18px;
+      }
+
+      .cls-5 {
+        stroke: #707070;
+      }
+
+      .cls-6 {
+        font-size: 22px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="hobbies_img" transform="translate(-840.954 -1297)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="79.045" cy="79.045" r="79.045" transform="translate(880.011 1297)"/>
+    <text id="Watching_Movies" data-name="Watching Movies" class="cls-2" transform="matrix(1, -0.017, 0.017, 1, 905.119, 1372.325)"><tspan x="0" y="0">Watching Movies</tspan></text>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="109.267" cy="109.267" r="109.267" transform="translate(980.444 1322.108)"/>
+    <text id="Video_Gaming" data-name="Video Gaming" class="cls-4" transform="matrix(1, -0.017, 0.017, 1, 1029.731, 1439.28)"><tspan x="0" y="0">Video Gaming</tspan></text>
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-5" transform="translate(840.954 1409.522)">
+      <circle class="cls-7" cx="109.267" cy="109.267" r="109.267"/>
+      <circle class="cls-8" cx="109.267" cy="109.267" r="108.767"/>
+    </g>
+    <text id="Music" class="cls-6" transform="matrix(1, -0.017, 0.017, 1, 919.068, 1528.554)"><tspan x="0" y="0">Music</tspan></text>
+  </g>
+</svg>

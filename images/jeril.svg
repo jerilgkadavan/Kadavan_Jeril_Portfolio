@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341 855">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2a2a;
+        stroke: #2a2a2a;
+        font-size: 204px;
+        font-family: Orbitron-Bold, Orbitron;
+        font-weight: 700;
+        letter-spacing: 0.115em;
+      }
+    </style>
+  </defs>
+  <text id="jeril" class="cls-1" transform="translate(1 199)"><tspan x="0" y="0">JE</tspan><tspan x="0" y="304">RI</tspan><tspan x="0" y="608">L</tspan></text>
+</svg>
