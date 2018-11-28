@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.079 68">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 48px;
+        font-family: HerrVonMuellerhoff-Regular, Herr Von Muellerhoff;
+      }
+    </style>
+  </defs>
+  <g id="footer_logo" transform="translate(0.609 9.199)">
+    <text id="Jeril_G_Kadavan" data-name="Jeril G Kadavan" class="cls-1" transform="translate(14.391 34.801)"><tspan x="0" y="0">Jeril G Kadavan</tspan></text>
+    <g id="Group_24" data-name="Group 24" transform="translate(4.324 37.574)">
+      <path id="Path_30" data-name="Path 30" class="cls-2" d="M7.4,86.743l34.525-1.627L76.4,83.6l69.05-2.918L214.5,78.1l34.525-1.235L283.545,75.8,249.02,77.427,214.5,78.943l-69,2.862L76.45,84.442,41.925,85.62Z" transform="translate(-7.4 -75.8)"/>
+    </g>
+    <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-2" cx="0.561" cy="0.561" r="0.561" transform="translate(275.419 34.946)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-2" cx="0.561" cy="0.561" r="0.561" transform="translate(269.807 39.912)"/>
+  </g>
+</svg>
