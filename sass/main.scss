@@ -211,6 +211,31 @@ body, section, div, p, ul, li, a {
     color:  $color_grey;
     transition: .5s ease-in-out;
 }
+footer{
+    background-color: $color_grey;
+}
+#footerNav{
+    margin: 0 auto;
+}
+#footerNav ul li {
+    display: inline;
+    margin-left: 5em;
+
+}
+
+#footerNav ul li a {
+    color: $text_color_white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+#footerNav ul li a:hover {
+  color: $text_color_red;
+  transition: .25s linear;
+}
+#copyright{
+    margin-left: 135px;
+}
 
 
 // MEDIA QUERY START//
