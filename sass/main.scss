@@ -55,6 +55,7 @@ body, section, div, p, ul, li, a {
       width: 21.188em;
       margin-top: 2em;
       
+      
   }
   #mianPoster{
       margin-bottom: 10px;
@@ -102,6 +103,11 @@ body, section, div, p, ul, li, a {
     padding-bottom: 5em;
 
 }
+#skillPage{
+    width: 1509px;
+    margin-left: 270px;
+    
+}
 #softWareSkillsHeading{
     color: $text_color_red;
     font-size: 1.25em;
@@ -114,7 +120,7 @@ body, section, div, p, ul, li, a {
     // background-color: rgba(53,53,53,.5);
     background-color: #151515;
 }
-#butSec {
+#resumeButton {
     margin-top: 2.5em;
     background-color: $color_grey;
     color: $text_color_red;
@@ -123,7 +129,7 @@ body, section, div, p, ul, li, a {
     margin-bottom: 2.5em;
 }
 
-#butSec:hover {
+#resumeButton:hover {
     background-color: $text_color_red;
     color:  $color_grey;
     transition: .5s ease-in-out;
@@ -141,19 +147,22 @@ body, section, div, p, ul, li, a {
 }
 #developmenIcon{
     width: 6.063em;
+    margin: auto;
     
 }
 #designIcon{
     width: 5.500em;
+    margin: auto;
     
 }
 #animaitonIcon{
     width: 6.625em;
+    margin: auto;
     
 }
 #developmentTextBox{
     padding: 4px;
-    margin-left: -81px;
+    margin-left: -66px;
 }
 .threeSkillsHeading{
     font-weight: bold;
@@ -165,6 +174,43 @@ body, section, div, p, ul, li, a {
     font-size: 1.250em;
 }
 
+.contactIntro{
+    text-align: center;
+    font-size: 3.063em;
+    color: $text_color_red;
+}
+.contactTagLine{
+   color: $text_color_white;
+  font-size: 36px;
+}
+.form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $text_color_red;
+    color: $color_grey;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 70px
+}
+#sendButton {
+    margin-top: 1.5em;
+    background-color: $color_grey;
+    color: $text_color_red;
+    border-radius: .625em;
+    letter-spacing: 2px;
+    height: 3em;
+    margin-bottom: 3.5em;
+    width: 450px;
+    margin-left: 80px;
+
+}
+
+#sendButton:hover {
+    background-color: $text_color_red;
+    color:  $color_grey;
+    transition: .5s ease-in-out;
+}
 
 
 // MEDIA QUERY START//
@@ -227,12 +273,76 @@ body, section, div, p, ul, li, a {
     #hobbiesImg{
         width: 227px;
     }
-    #skillsHeading{
+    .letterWhite{
+        color: $text_color_white;
+    }
+    .headings{
         color: $text_color_red;
         font-weight: bold;
         font-size: 1.875em;
         margin-top: 4em;
-        margin-left: 1.250em;
+        margin-left:1.563em;
+        margin-bottom: 25px;
     }
+    #skillPage{
+        width: 174px;
+        margin-left: 150px;
+    }
+
+    #developmenIcon{
+        width: 69px;
+        margin-bottom: 50px;
+        
+        
+    }
+    #designIcon{
+        width: 55px;
+        margin-bottom: 50px;
+       
+        
+    }
+    #animaitonIcon{
+        width: 70px;
+    }
+    .contactIntro{
+        text-align: center;
+        font-size: 20px;
+        color: $text_color_red;
+    }
+    .contactTagLine{
+       color: $text_color_white;
+      font-size: 18px;
+    }
+    .form-control{
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $text_color_red;
+        color: $color_grey;
+        font-size: 25px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width:302px;
+        margin-left: 20px;
+    }
+    #sendButton {
+        margin-top: 1.5em;
+        background-color: $color_grey;
+        color: $text_color_red;
+        border-radius: .625em;
+        letter-spacing: 2px;
+        height: 3em;
+        margin-bottom: 3.5em;
+        width: 450px;
+        margin-left: 80px;
+    
+    }
+    
+    #sendButton:hover {
+        background-color: $text_color_red;
+        color:  $color_grey;
+        transition: .5s ease-in-out;
+    }
+
 
   }
