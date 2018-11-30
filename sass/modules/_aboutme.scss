@@ -1,0 +1,122 @@
+.aboutMeIntro{
+    text-align: center;
+    font-size: 2.750em;
+}
+.redtext{
+    color: $text_color_red;
+}
+
+#bkdTextOne {
+  transform: rotate(-90deg) scaleX(1);
+  color: $text_color_red;
+  font-size: 1.25em;
+  letter-spacing: .025em;
+  padding-top: 5em;
+  margin-top: 35px;
+  
+}
+#bkdTextTwo {
+  transform: rotate(-90deg) scaleX(1);
+  color: $text_color_red;
+  font-size: 1.25em;
+  letter-spacing: .025em;
+  padding-top: 3em;
+  text-align: center;
+  margin-top: 35px;
+}
+
+#bkdTextThree {
+  transform: rotate(-90deg) scaleX(1);
+  color: $text_color_red;
+  font-size: 1.25em;
+  letter-spacing: .025em;
+  padding-top: 3em;
+  text-align: center;
+  margin-top: 75px;
+}
+
+#hobbiesImg{
+  width: 358px;
+  height: 341px;
+  padding-bottom: 5em;
+
+}
+#skillPage{
+  width: 1509px;
+  margin-left: 270px;
+  
+}
+#softWareSkillsHeading{
+  color: $text_color_red;
+  font-size: 1.25em;
+  letter-spacing: .025em;
+  text-align: center;
+  margin-top: -40px;
+}
+
+#skillSec {
+  // background-color: rgba(53,53,53,.5);
+  background-color: #151515;
+}
+#resumeButton {
+  margin-top: 2.5em;
+  background-color: $color_grey;
+  color: $text_color_red;
+  border-color: transparent;
+  border-radius: 0.625em;
+  height: 3em;
+  margin-bottom: 2.5em;
+}
+
+#resumeButton:hover {
+  background-color: $text_color_red;
+  color:  $color_grey;
+  transition: .5s ease-in-out;
+}
+
+@media screen and (max-width: 600px)  {
+
+  
+  .aboutMeIntro{
+    text-align: center;
+    font-size: 1.125em;
+}
+#bkdTextOne {
+    transform: rotate(-90deg) scaleX(1);
+    color: $text_color_red;
+    font-size: 1.250em;
+    color: $text_color_red;
+    padding-top: .1em;
+    text-align: center;
+    margin-top: 60px;
+    
+  }
+  #detailInf{
+      font-size: 0.750em;
+  }
+  #bkdTextTwo {
+    transform: rotate(-90deg) scaleX(1);
+    color: $text_color_red;
+    font-size: .95em;
+    padding-top: .1em;
+    
+
+}
+
+    #eduWorkImg{
+        width: 311px;
+    }
+
+  #bkdTextThree {
+    transform: rotate(-90deg) scaleX(1);
+    color: $text_color_red;
+    font-size: .95em;
+    padding-top: .1em;
+   margin-top: 110px;
+    
+}
+#hobbiesImg{
+    width: 227px;
+}
+    
+}

@@ -1,0 +1,83 @@
+.contactIntro{
+    text-align: center;
+    font-size: 3.063em;
+    color: $text_color_red;
+}
+.contactTagLine{
+   color: $text_color_white;
+  font-size: 36px;
+}
+.form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $text_color_red;
+    color: $color_grey;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 70px
+}
+#sendButton {
+    margin-top: 1.5em;
+    background-color: $color_grey;
+    color: $text_color_red;
+    border-radius: .625em;
+    border-color: transparent;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 4.5em;
+  
+
+}
+
+#sendButton:hover {
+    background-color: $text_color_red;
+    color:  $color_grey;
+    transition: .5s ease-in-out;
+}
+
+@media screen and (max-width: 600px)  {
+
+    .contactIntro{
+        text-align: center;
+        font-size: 20px;
+        color: $text_color_red;
+    }
+    .contactTagLine{
+       color: $text_color_white;
+      font-size: 18px;
+    }
+    .form-control{
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $text_color_red;
+        color: $color_grey;
+        font-size: 25px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width:302px;
+        margin-left: 20px;
+    }
+ 
+    #sendButton {
+        margin-top: 1.5em;
+        background-color: $color_grey;
+        color: $text_color_red;
+        border-radius: .625em;
+        letter-spacing: 2px;
+        height: 3em;
+        margin-bottom: 3.5em;
+        width: 250px;
+      
+    }
+    
+    #sendButton:hover {
+        background-color: $text_color_red;
+        color:  $color_grey;
+        transition: .5s ease-in-out;
+    }
+
+}

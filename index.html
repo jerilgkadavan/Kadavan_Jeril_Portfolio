@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link rel="icon" href="images/favicon.svg" type="image/png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+    crossorigin="anonymous"></script>
 </head>
 
 <h1 class="hidden">jeril g kadavan Portfolio</h1>
@@ -17,9 +22,30 @@
 		<h2 class="hidden">Logo</h2>
 	
 	<header class="grid-x grid-padding-x">
-		<div class="hide-for-small-only large-2 cell">
+		<div class="hide-for-small-only hide-for-medium-only large-2 cell">
 				<img src="images/Logo_main.svg" alt="Main Logo" id="mainLogo">
 		</div>
+
+		<div class="navigation">
+			<div class="medium-1 cell">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+			<label for="navi-toggle" class="navigation__button">
+			  <span class="navigation__icon">&nbsp;</span>
+			</label>
+			<div class="navigation__background">&nbsp;</div>
+			<nav class="navigation__nav">
+			  <h3 class="hidden">Main Navigation</h3>
+			  <ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">ABOUT ME</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">SKILLS</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">PORTFOLIO</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">CONTACT</a></li>
+			  </ul>
+			</nav>
+		  </div>
+		</div>
+
 
 		<nav id="mainNav" class="small-3 small-offset-6 large-6 large-offset-4 cell">	
 			<ul>
@@ -44,7 +70,7 @@
 			</div>
 
 			<div class="hide-for-small-only hide-for-medium-only large-8 cell">
-					<img src="images/my_img.svg" alt="my image" id="myImg">
+					<img src="images/my_img.svg" alt="my image" id="profimg">
 
 			</div>
 		</div>
@@ -86,15 +112,14 @@
 				<div class="small-9 large-3 cell">
 						<img src="images/edu_work_img.svg" alt="Education and work" id="eduWorkImg">
 					</div>
+
 					<div class="small-3 large-1 cell">
 							<p id="bkdTextThree">HOBBIES</p>	
 						</div>
-					
 		
 						<div class="small-9 large-3 cell">
 								<img src="images/hobbies_img.svg" alt="Education and work" id="hobbiesImg">
 							</div>
-					
 		</div>
 		<div class="small-3 large-1 cell">
 				<p id="softWareSkillsHeading">SOFTWARE SKILLS</p>	
@@ -140,15 +165,19 @@
 		</div>
 
 	</section>
-	
+
+
+	<!-- Skills page start -->
 		<div class="grid-x grid-padding-x">
 			<div class="small-6 large-2 cell">
-					<h2 class="headings"><span class="letterWhite">S</span>KILLS</h2>
+					<h2 class="headings"><span class="letterWhite">S</span>KILLS</h2>  
 			</div>
 		</div>
 		<section id="skillPage">
 		<div class="grid-x grid-padding-x">
+				
 			<div class="small-12 large-2 large-offset-1 cell">
+					
 				<img src="images/development_icon.svg" alt="Development Icon" id="developmenIcon">
 			</div>
 
@@ -160,9 +189,9 @@
 				<img src="images/3d_icon.svg" alt="3D icon" id="animaitonIcon">
 			</div>
 
-		</div>
-
-		<div class="grid-x grid-padding-x">
+		
+<!--skills page in between icon and text -->
+	
 				<div id="developmentTextBox" class="hide-for-small-only hide-for-medium-only large-4 cell">
 						<h4 class="threeSkillsHeading">DEVELOPMENT</h4>
 						<P class="developmentText">HTML5, CSS, SASS, 
@@ -179,62 +208,115 @@
 					<h4 class="threeSkillsHeading">3D ANIMATION</h4>
 					<P class="developmentText">Autodesk Maya, Autodesk Max, <br>Cinema 4D & Zbrush. </P>
 				</div>
-			</section>
 		</div>
+	</section>
+<!-- skills page end -->
 
-		
-		<div class="grid-x grid-padding-x">
+<div class="grid-x grid-padding-x">
 		<div class="small-6 large-3 cell">
-			<h2 class="headings"><span class="letterWhite">P</span>ORTFOLIO</h2>
+			<h2 id="portfolioHeading" class="headings"><span class="letterWhite">P</span>ORTFOLIO</h2>
 		</div>
 		</div>
+		
+	<section id="protfolioSec1" class="grid-x grid-padding-x">
 
-		<div class="grid-x grid-padding-x">
-			<div class="small-12 large-2 large-offset-1 cell">
-				<img src="images/GalleryImg5.png" alt="Development Icon" id="developmenIcon">
-			</div>
-			<div class="small-12 large-2 cell">
-				<img src="images/GalleryImg4.png" alt="Development Icon" id="developmenIcon">
+        <div id="portFolioSec2" class="cell small-12 medium-4 large-2 large-offset-2">
+            <div class="popContainer">
+				
+          <img src="images/imgThumb_1.png" alt="Gallery Image 1" >
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+          </div>
+          <div id="myImg"  class="popOverlay">
+              <div class="popText">WEB DEVELOPMENT
+				  <!-- <button id="myImg">View</button> -->
 				</div>
-
-			<div class="small-12 large-2 cell">
-				<img src="images/GalleryImg3.png" alt="Development Icon" id="developmenIcon">
-			</div>
-
-			<div class="small-12 large-2 cell">
-				<img src="images/GalleryImg2.png" alt="Development Icon" id="developmenIcon">
-			 </div>
-
-			<div class="small-12 large-2 cell">
-				<img src="images/GalleryImg1.png" alt="Development Icon" id="developmenIcon">
-			</div>
-
-
+              </div>
+              </div>
+              </div>
+        </div>
+        <div id="myImg2" class="small-12 medium-4 large-2 cell">
+            <div class="popContainer">
+            <img src="images/imgThumb_2.png" alt="Gallery Image 2">
+            <div class="popOverlay">
+                <div class="popText">3D MODELING
+                    <!-- <button id="">View</button> -->
+                </div>
+                </div>
+                </div>
+          </div>
+        <div id="myImg3" class="cell small-12 medium-4 large-2">
+            <div class="popContainer">
+            <img src="images/imgThumb_3.png" alt="Gallery Image 3">
+            <div class="popOverlay">
+                <div class="popText">BRANDING & LOGO
+                    <!-- <button id="myImg3">View</button> -->
+                </div>
+                </div>
+                </div>
 		</div>
-
-		<div class="grid-x grid-padding-x">
-				<div class="small-12 large-2 large-offset-1 cell">
-					<img src="images/GalleryImg2.png" alt="Development Icon" id="developmenIcon">
-				</div>
-				<div class="small-12 large-2 cell">
-					<img src="images/GalleryImg3.png" alt="Development Icon" id="developmenIcon">
+		
+		<div id="myImg7" class="cell small-12 medium-4 large-2">
+				<div class="popContainer">
+				<img src="images/imgThumb_7.png" alt="Gallery Image 7">
+				<div class="popOverlay">
+					<div class="popText">DIGITAL PAINTING
+						<!-- <button id="myImg7">View</button> -->
 					</div>
-	
-				<div class="small-12 large-2 cell">
-					<img src="images/GalleryImg4.png" alt="Development Icon" id="developmenIcon">
-				</div>
-	
-				<div class="small-12 large-2 cell">
-					<img src="images/GalleryImg5.png" alt="Development Icon" id="developmenIcon">
-				 </div>
-	
-				<div class="small-12 large-2 cell">
-					<img src="images/GalleryImg1.png" alt="Development Icon" id="developmenIcon">
-				</div>
-	
-	
+					</div>
+					</div>
 			</div>
 
+      </section>
+
+      <section class="grid-x grid-padding-x">
+          <div id="myImg4"  class="cell small-12 medium-4 large-2 large-offset-2">
+              <div class="popContainer">
+              <img src="images/imgThumb_4.png" alt="Gallery Image 4">
+              <div class="popOverlay">
+                  <div class="popText">INFOGRAPHIC
+                    <!-- <button id="myImg4">View</button> -->
+                  </div>
+          
+                  </div>
+                  </div>
+          </div>
+          <div id="myImg5" class="cell small-12 medium-4 large-2">
+              <div class="popContainer">
+              <img src="images/imgThumb_5.png" alt="Gallery Image 5">
+              <div class="popOverlay">
+                  <div class="popText">BRANDING MASHUP
+                      <!-- <button id="myImg5">View</button> -->
+                  </div>
+                  </div>
+                  </div>
+            </div>
+          <div id="myImg6"  class="cell small-12 medium-4 large-2">
+              <div class="popContainer">
+              <img src="images/imgThumb_6.png" alt="Gallery Image work 6">
+              <div class="popOverlay">
+                  <div class="popText">BRANDING
+                      <!-- <button id="myImg6">View</button> -->
+                  </div>
+                  </div>
+                  </div>
+		  </div>
+		  
+		  <div id="myImg8" class="cell small-12 medium-4 large-2">
+				<div class="popContainer">
+				<img src="images/imgThumb_8.png" alt="Gallery Image work 8">
+				<div class="popOverlay">
+					<div class="popText">WEB DEVELOPMENT
+						<!-- <button id="myImg8">View</button> -->
+					</div>
+					</div>
+					</div>
+			</div>
+  
+        </section>
+
+	  
 	
 	<div class="grid-x grid-padding-x">
 		<div class="small-6 large-3 cell">
@@ -266,73 +348,74 @@
 		</div>
 	</div>
 
+    <div class="grid-x grid-padding-x">
+		<button id="sendButton" class="small-6 small-offset-3 large-2 large-offset-5 cell">SEND MESSAGE</button>
+	</div>
+
+</div>
+
+<div id="socialMediaSec" class="grid-x grid-padding-x">
+
+	<div class="socialMedia" class="small-6 large-3 cell">
+		<a href="https://twitter.com/jerilgkadavan"><img src="images/twitter_icone.svg" alt="twitterIcone" id="twitter"></a>
+		
+	</div>
+
+	<div class="socialMedia" class="small-6 large-3 cell">
+		<a href="https://www.instagram.com/jerilgkadavan/?hl=en"><img src="images/insta_icone.svg" alt="instaIcone" id="insta"></a>
+	</div>
+	
+	<div class="socialMedia" class="small-6 large-3 cell">
+		<a href="https://www.facebook.com/jerilgkadavan"><img src="images/fb_icone.svg" alt="fbIcone" id="fb"></a>
+	</div>
+
+	<div class="socialMedia" class="small-6 large-3 cell">
+		<a href="https://github.com/jerilgkadavan?tab=repositories"><img src="images/github_icone.svg" alt="githubIcone" id="github"></a>
+	</div>
+
+</div>
+
+<footer>
 
 	<div class="grid-x grid-padding-x">
-			<div class="small-12 large-4 large-offset-4 cell">
-					<button id="sendButton" class="hide-for-small-only hide-for-medium-only large-2 large-offset-5 cell">
-							SEND MESSAGE
-						</button>
-			</div>
+		<div class="hide-for-small-only hide-for-medium-only large-6 large-offset-3 cell">
+			<nav id="footerNav" class="small-3 small-offset-6 large-6 large-offset-4 cell">	
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT ME</a></li>
+					<li><a href="#">SKILLS</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+
+		</div>
 	</div>
 
 	<div class="grid-x grid-padding-x">
-		<div class="small-6 large-3 cell">
-			<a href="https://twitter.com/jerilgkadavan"><img src="images/twitter_icone.svg" alt="twitterIcone"></a>
-			
-		</div>
-
-		<div class="small-6 large-3 cell">
-			<a href="https://www.instagram.com/jerilgkadavan/?hl=en"><img src="images/insta_icone.svg" alt="instaIcone"></a>
-		</div>
-		
-		<div class="small-6 large-3 cell">
-			<a href="https://www.facebook.com/jerilgkadavan"><img src="images/fb_icone.svg" alt="fbIcone"></a>
-		</div>
-
-		<div class="small-6 large-3 cell">
-			<a href="https://github.com/jerilgkadavan?tab=repositories"><img src="images/github_icone.svg" alt="githubIcone"></a>
-		</div>
-	</div>
-
-	<footer>
-
-		<div class="grid-x grid-padding-x">
-			<div class="hide-for-small-only hide-for-medium-only large-6 large-offset-3 cell">
-				<nav id="footerNav" class="small-3 small-offset-6 large-6 large-offset-4 cell">	
-					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">ABOUT ME</a></li>
-						<li><a href="#">SKILLS</a></li>
-						<li><a href="#">PORTFOLIO</a></li>
-						<li><a href="#">CONTACT</a></li>
-					</ul>
-				</nav>
+			<div class="hide-for-small-only hide-for-medium-only large-2 large-offset-5 cell">
+				<img src="images/footer_logo.svg" alt="footer Logo" id="footerLogo"> 
 
 			</div>
-		</div>
 
-		<div class="grid-x grid-padding-x">
-				<div class="small-6 large-2 large-offset-5 cell">
-					<img src="images/footer_logo.svg" alt="footer Logo" id="footerLogo"> 
+	</div>
+
+	<div class="grid-x grid-padding-x">
+			<div class="hide-for-small-only hide-for-medium-only large-4 large-offset-4 cell">
+				<p id="copyright">© Copyright. Design by Jeril G Kadavan</p> 
+
+			</div>
+	</div>
 	
-				</div>
-
-		</div>
-
-		<div class="grid-x grid-padding-x">
-				<div class="hide-for-small-only hide-for-medium-only large-4 large-offset-4 cell">
-					<p id="copyright">© Copyright. Design by Jeril G Kadavan</p> 
-	
-				</div>
-		</div>
-		
-	</footer>
-
+</footer>
 	
 
 
 	</main>
 	
+		
+
+	  
 		
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>  

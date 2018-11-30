@@ -1,0 +1,84 @@
+#twitter, #insta, #fb, #github{
+    width: 469px;
+    height: 113px;
+margin: 0 auto;
+
+
+
+}
+
+#socialMediaSec{
+  
+    padding: 10px;
+
+}
+footer{
+    background-color: $color_grey;
+    margin-top: 0;
+}
+#footerNav{
+    margin: 0 auto;
+    margin-top: 0px;
+}
+#footerNav ul li {
+    display: inline;
+    margin: 0 auto;
+    margin-left: 5em;
+    
+
+}
+
+#footerNav ul li a {
+    color: $text_color_white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+#footerNav ul li a:hover {
+  color: $text_color_red;
+  transition: .25s linear;
+}
+#footerLogo{
+    width: 280px;
+    height: 68px;
+}
+#copyright{
+    margin: 0 auto;
+    margin-left: 135px;
+}
+
+
+#footerNav {
+    margin: 0 auto;
+}
+
+#footerNav li {
+    display: inline;
+    margin-left: 10em;
+}
+
+#footerNav li a {
+    text-decoration: none;
+    font-family: "open-sans", "Arial", "Helvetica";
+    font-size: 1em;
+}
+#footerNav li a:hover {
+    color: red;
+    transition: linear .8s;
+}
+
+#mainFooter {
+    background-color: #1f1f1f;
+}
+
+// MEDIA QUERY//
+
+@media screen and (max-width: 600px)  {
+    
+    #twitter, #insta, #fb, #github{
+        width: 369px;
+    margin: 0 auto;
+    }
+
+
+}
