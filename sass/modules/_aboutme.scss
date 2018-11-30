@@ -59,15 +59,18 @@
   background-color: #151515;
 }
 #resumeButton {
-  margin-top: 2.5em;
+    
   background-color: $color_grey;
   color: $text_color_red;
-  border-color: transparent;
   border-radius: 0.625em;
   height: 3em;
-  margin-bottom: 2.5em;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  border-color: transparent;
+  
 }
-
 #resumeButton:hover {
   background-color: $text_color_red;
   color:  $color_grey;

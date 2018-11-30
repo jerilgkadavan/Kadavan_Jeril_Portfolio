@@ -16,7 +16,7 @@
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: $color_grey;
+    background-color: $text_color_red;
 
 }
 
@@ -26,8 +26,9 @@
 }
 
 .popText {
-    color: white;
+    color: $text_color_white;
     font-size: 20px;
+    font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,30 +36,9 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    opacity: 1;
+  
 }
 
-button {
-    width: $butWidth;
-    height: $butHeight;
-    border-top: solid 2px white;
-    border-bottom: solid 2px white;
-    border-left: solid 2px white;
-    border-right: solid 2px white;
-    color: white;
-    border-color:$text_color_red;
-    margin-top: $margin;
-    background-color: $text_color_red;
-
-    
-}
-
-button:hover {
-
-    background-color: $text_color_red;
-    color: black;
-
-}
 
 #myImg {
     border-radius: 5px;
@@ -155,7 +135,7 @@ button:hover {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    color: $text_color_white;
     padding: 10px 0;
     height: 150px;
 }
