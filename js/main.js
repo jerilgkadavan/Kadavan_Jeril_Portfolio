@@ -2,6 +2,42 @@
 
     $(document).foundation()
 
+    let myGallery = [];
+let popText = document.querySelectorAll('.popText');
+let galImg = document.querySelectorAll('.gal');
+
+    function get_gallery() {
+
+        fetch('./includes/index.php') // pass in the one or many query
+          .then(res => res.json())
+          .then(data => {
+           
+              myGallery = data;
+    
+              popText.forEach((textelement,index) => {
+                textelement.textContent=data[index].gallery_descripation;
+            })
+            
+            galImg.forEach((pic,i) => {
+                pic.src= "images/"+ data[i].gallery_thumb_image;
+            })
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+    }
+    
+    
+    
+    window.addEventListener('load', () => {
+    
+    get_gallery();
+    
+    
+    });
+
+
+
     // console.log("mainjs");
     
     // // div hide before scroll
@@ -58,6 +94,80 @@
     // }, offset: -50
     
     // })
-    
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var img2 = document.getElementById('myImg2');
+var img3 = document.getElementById('myImg3');
+var img4 = document.getElementById('myImg4');
+var img5 = document.getElementById('myImg5');
+var img6 = document.getElementById('myImg6');
+var img7 = document.getElementById('myImg7');
+var img8 = document.getElementById('myImg8');
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[0].gallery_image;
+
+}
+
+//handle click for myImg2
+img2.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[1].gallery_image;
+}
+
+//handle click for myImg3
+img3.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[2].gallery_image;
+}
+img4.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[3].gallery_image;
+}
+
+//handle click for myImg2
+img5.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[4].gallery_image;
+}
+
+//handle click for myImg3
+img6.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[5].gallery_image;
+}
+
+//handle click for myImg3
+img7.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[6].gallery_image;
+}
+
+//handle click for myImg3
+img8.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = 'images/'+myGallery[7].gallery_image;
+}
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+
+// 1. DB Query
+// 2. FETCH API to put everything in data and into an empty array (myGallery)
+// 3. apply data targetting the query selector img.src, text, thumb.src in DOM    
 
 

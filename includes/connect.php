@@ -1,32 +1,26 @@
-<?php
-$user = "root";
-$password = "";
-$host = "localhost";
-$db = "";
-$conn = mysqli_connect($host, $user, $password, $db);
-mysqli_set_charset($conn, 'utf8');
-if (!$conn) {
-    echo "connection didn't work...";
-    exit;
+<?php 
+
+//! Use Associative Array, for connection details.
+$dbn_dsn = array(
+  'host' => 'localhost',
+  'dbname' => 'db_portfolio',
+  'charset' => 'utf8',
+);
+
+// set the divider inside the associative array
+$dsn = 'mysql: ' . http_build_query($dbn_dsn, '', ';');
+
+// This is the DB Credentials
+$db_user = 'root';
+$db_pass = '';
+
+//PDO is a Php Data Object
+try {
+  $conn = new PDO($dsn, $db_user, $db_pass);
+  // var_dump($pdo);
+} catch (PDOException $exception) {
+  echo 'Connection Error ' . $exception->getMessage();
+  exit();
 }
-//echo "connected!";
-// get all the car data
-// $myQuery = "SELECT * FROM mainmodel";
-// // make the query, get the result
-// $result = mysqli_query($conn, $myQuery);
-// $rows = array();
-// while($row = mysqli_fetch_assoc($result)) {
-//     $rows[] = $row;
-// }
-if (isset($_GET["accidentInfo"])) {// check for a parameter ?carModel=R58
-    $info = $_GET["accidentInfo"];
-    $myQuery = "SELECT * FROM tbl_accidentInfo WHERE desc_id = '$info'";
-    $result = mysqli_query($conn, $myQuery);
-    $rows = array();
-    while($row = mysqli_fetch_assoc($result)) {
-        $rows[] = $row;
-    }
-}
-// send the entire result set as a json encoded array
-echo json_encode($rows);
+
 ?>
