@@ -11,7 +11,6 @@
   position: fixed;
   border-radius: 50%;
   z-index: 2000;
-  /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); */
   text-align: center;
   cursor: pointer;
 }
@@ -20,7 +19,7 @@
 
   height: 1rem;
   width: 1.6rem;
-  /* border-radius: 50%; */
+
   position: fixed;
   top: 4.5rem;
   left: 5rem;
@@ -33,7 +32,7 @@
 }
 
 .navigation__nav {
-  // /* height: 100vh; */
+
 
   width: 0;
   position: fixed;
@@ -103,7 +102,7 @@ height: 100vh;
   margin-top: 3rem;
 
 }
-// kande pediecha//
+
 .navigation__icon,
 .navigation__icon::before,
 .navigation__icon::after {
@@ -182,6 +181,19 @@ height: 100vh;
     color: $text_color_red;
     transition: .25s linear;
 }
+#tagLine{
+  width: 100%;
+
+}
+#jeril{
+  width: 100%;
+  
+}
+#profimg{
+  width: 100%
+}
+
+// MEDIA QUERY //
 @media screen and (max-width: 600px)  {
 
   #tagLine{
@@ -195,3 +207,34 @@ height: 100vh;
 }
     
 }
+
+
+@media screen and (max-width: 700px){
+  
+  #tagLine{
+    width: 52px;
+    height: 677px;
+}
+#jeril{
+    width: 374px;
+    height: 688px;
+    
+}
+#mainNav ul li {
+  display: inline;
+  margin-left: 3em;
+width: 50%
+}
+
+#mainNav ul li a {
+  color: $text_color_white;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+#mainNav ul li a:hover {
+color: $text_color_red;
+transition: .25s linear;
+}
+}
+

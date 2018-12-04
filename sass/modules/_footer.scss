@@ -1,16 +1,20 @@
-#twitter, #insta, #fb, #github{
-    width: 469px;
-    height: 113px;
-margin: 0 auto;
-
-
-
-}
 
 #socialMediaSec{
-  
-    padding: 10px;
-
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.box1{
+flex: 1;
+}
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+.box4{
+    flex: 1;
 }
 footer{
     background-color: $color_grey;
@@ -51,6 +55,7 @@ footer{
 
 #footerNav {
     margin: 0 auto;
+    margin-top: 25spx;
 }
 
 #footerNav li {
@@ -74,12 +79,29 @@ footer{
 
 // MEDIA QUERY//
 
+// @media screen and (max-width: 700px)  {
+
+
+
+// }
+
 @media screen and (max-width: 600px)  {
-    
-    #twitter, #insta, #fb, #github{
-        width: 369px;
-    margin: 0 auto;
+    #socialMediaSec{
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+
     }
-
-
+    .box1{
+    flex: 1;
+    }
+    .box2{
+        flex: 1;
+    }
+    .box3{
+        flex: 1;
+    }
+    .box4{
+        flex: 1;
+}
 }

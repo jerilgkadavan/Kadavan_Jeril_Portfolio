@@ -55,7 +55,7 @@
 }
 
 #skillSec {
-  // background-color: rgba(53,53,53,.5);
+
   background-color: #151515;
 }
 #resumeButton {
@@ -75,6 +75,59 @@
   background-color: $text_color_red;
   color:  $color_grey;
   transition: .5s ease-in-out;
+}
+
+
+// tablet//
+
+@media screen and (max-width:700px){
+  #aboutMeIntro{
+    text-align: center;
+    font-size: 2em;
+}
+.redtext{
+  color: $text_color_red;
+}
+
+#bkdTextOne {
+transform: rotate(-90deg) scaleX(1);
+color: $text_color_red;
+font-size: 1em;
+letter-spacing: .025em;
+padding-top: 5em;
+margin-left: -58px;
+margin-top: 0px;
+
+}
+#bkdTextTwo {
+  transform: rotate(-90deg) scaleX(1);
+  color: $text_color_red;
+  font-size: 1em;
+  letter-spacing: .025em;
+  padding-top: 3em;
+  text-align: center;
+
+}
+
+
+#bkdTextThree {
+  transform: rotate(-90deg) scaleX(1);
+  color: $text_color_red;
+  font-size: 1em;
+  letter-spacing: .025em;
+  padding-top: 3em;
+  text-align: center;
+  margin-top: 75px;
+}
+
+
+#hobbiesImg{
+  width: 100%;
+  padding-bottom: 5em;
+  margin-top: 10px;
+
+}
+
 }
 
 @media screen and (max-width: 600px)  {
@@ -107,7 +160,7 @@
 }
 
     #eduWorkImg{
-        width: 311px;
+        width: 100%;
     }
 
   #bkdTextThree {

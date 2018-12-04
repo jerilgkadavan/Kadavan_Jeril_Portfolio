@@ -1,26 +1,33 @@
+#skillPage{
+    margin: 0 auto;
+}
+
 #skillHead{
     margin-bottom: 100px;
 }
 
 #developmenIcon{
     width: 6.063em;
-    margin: auto;
+    margin-left: 182px;
+    margin-bottom: 30px;
     
 }
 #designIcon{
     width: 5.500em;
     margin: auto;
+    margin-left: 182px;
+    margin-bottom: 30px;
     
 }
 #animaitonIcon{
     width: 6.625em;
     margin: auto;
+    margin-left: 182px;
+    margin-bottom: 30px;
+    
     
 }
-#developmentTextBox{
-    padding: 4px;
-    margin-left: -66px;
-}
+
 .threeSkillsHeading{
     font-weight: bold;
     text-align: center;
@@ -31,32 +38,76 @@
     font-size: 1.250em;
 }
 
+
 @media screen and (max-width: 600px)  {
 
     #skillPage{
         width: 174px;
-        margin-left: 150px;
+        margin: 0 auto;
+        margin-top: -44px;
     }
 
     #developmenIcon{
         width: 69px;
-        margin-bottom: 50px;
+        margin: 0 auto;
+        margin-left: 42px;
+        margin-bottom: 25px;
         
         
     }
     #designIcon{
         width: 55px;
-        margin-bottom: 50px;
+        margin: 0 auto;
+        margin-left: 52px;
+        margin-bottom: 25px;
+
        
         
     }
     #animaitonIcon{
         width: 70px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    
     }
+    .threeSkillsHeading{
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .developmentText{
+        text-align: center;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+
     .contactIntro{
         text-align: center;
         font-size: 20px;
         color: $text_color_red;
     }
     
+}
+@media screen and (max-width: 700px){
+    #animaitonIcon{
+        width: 70px;
+        margin: 0 auto;
+        margin-left: 42px;
+    }
+    .threeSkillsHeading{
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        margin: 0 auto;
+       
+    }
+    .developmentText{
+        text-align: center;
+        font-size: 10px;
+        margin: 0 auto;
+    }
 }
