@@ -36,29 +36,14 @@ let galImg = document.querySelectorAll('.gal');
     
     });
 
+//about me animation start//
 
+    console.log("mainjs");
 
-    // console.log("mainjs");
+    document.querySelector("#skillSec").style.visibility="hidden";
+
     
-    // // div hide before scroll
-    // document.querySelector("#bkdTextOne").style.visibility = "hidden";
-    // document.querySelector("#bkdTextTwo").style.visibility = "hidden";
-    // document.querySelector("#bkdTextThree").style.visibility = "hidden";
-    // document.querySelector("#softWareSkillsHeading").style.visibility = "hidden";
-    // document.querySelector("#detailInf").style.visibility = "hidden";
-    // document.querySelector("#eduWorkImg").style.visibility = "hidden";
-    // document.querySelector("#hobbiesImg").style.visibility = "hidden";
-    // document.querySelector("#psImg").style.visibility = "hidden";
-    // document.querySelector("#prImg").style.visibility = "hidden";
-    // document.querySelector("#arImg").style.visibility = "hidden";
-    // document.querySelector("#xdImg").style.visibility = "hidden";
-    // document.querySelector("#arImg").style.visibility = "hidden";
-    // document.querySelector("#idImg").style.visibility = "hidden";
-    // document.querySelector("#aiImg").style.visibility = "hidden";
-    // document.querySelector("#cinema4dImg").style.visibility = "hidden";
-    // document.querySelector("#mayaImg").style.visibility = "hidden";
-    
-    // function a(){
+    function a(){
     TweenMax.from('#bkdTextOne, #bkdTextTwo, #bkdTextThree, #softWareSkillsHeading',1.5,{ ease: Bounce.easeOut, y: -1000});
     
     TweenMax.from('#detailInf',1.5,{scale:0, delay:.5});
@@ -73,33 +58,29 @@ let galImg = document.querySelectorAll('.gal');
     TweenMax.from('#aiImg',2,{scale:0, rotation:-500, delay:4});
     TweenMax.from('#cinema4dImg',2,{scale:0, rotation:-500, delay:4.2});
     TweenMax.from('#mayaImg',2,{scale:0, rotation:-500, delay:4.4});
-    // }
-    //waypoint for keyfeature section
+    }
+    // waypoint section
     
-    // var waypoint = new Waypoint({
-    //     element: document.querySelector('.keyFeatureHeading'),
-    //     handler: function(direction) {
-    //       console.log('Scrolled to waypoint!')
-    //       a();
+    var waypoint = new Waypoint({
+        element: document.querySelector('#skillSec'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint!')
+          a();
     
     
-    //       //div visible after scroll
+   
+    document.querySelector("#skillSec").style.visibility="visible";
+    this.destroy();
+    }, offset: 600
     
-    //       document.querySelector("#bkdTextOne").style.visibility = "visible";
-    // document.querySelector("#bkdTextTwo").style.visibility = "visible";
-    // document.querySelector("#bkdTextThree").style.visibility = "visible";
-    // document.querySelector("#softWareSkillsHeading").style.visibility = "visible";
-    
-    // this.destroy();
-    // }, offset: -50
-    
-    // })
+    })
+//about me animaiton end//
 
 
 // Get the modal
 var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+// light box//
 var img = document.getElementById('myImg');
 var img2 = document.getElementById('myImg2');
 var img3 = document.getElementById('myImg3');
@@ -166,8 +147,5 @@ span.onclick = function() {
 }
 
 
-// 1. DB Query
-// 2. FETCH API to put everything in data and into an empty array (myGallery)
-// 3. apply data targetting the query selector img.src, text, thumb.src in DOM    
 
 
