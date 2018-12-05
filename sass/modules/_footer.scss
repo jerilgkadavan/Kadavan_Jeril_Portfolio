@@ -2,8 +2,12 @@
 #socialMediaSec{
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    @media screen and (max-width: 600px){
+        display: block;
+    }
 }
+
 .box1{
 flex: 1;
 }
@@ -18,7 +22,7 @@ flex: 1;
 }
 footer{
     background-color: $color_grey;
-    margin-top: -23px;
+    margin-top: -15px;
 }
 #footerNav{
     margin: 0 auto;
@@ -45,10 +49,10 @@ footer{
 #footerLogo{
     width: 280px;
     height: 68px;
+    margin-left: 40px;
 }
 #copyright{
     margin: 0 auto;
-    margin-left: 135px;
     margin-bottom: 10px;
 }
 
@@ -85,23 +89,22 @@ footer{
 
 // }
 
-@media screen and (max-width: 600px)  {
-    #socialMediaSec{
-        display: flex;
-        align-items: center;
-        margin-bottom: 25px;
+// @media screen and (max-width: 600px)  {
+//     #socialMediaSec{
+//         align-items: center;
+//         margin-bottom: 25px;
 
-    }
-    .box1{
-    flex: 1;
-    }
-    .box2{
-        flex: 1;
-    }
-    .box3{
-        flex: 1;
-    }
-    .box4{
-        flex: 1;
-}
-}
+//     }
+//     .box1{
+//     flex: 1;
+//     }
+//     .box2{
+//         flex: 1;
+//     }
+//     .box3{
+//         flex: 1;
+//     }
+//     .box4{
+//         flex: 1;
+// }
+// }
