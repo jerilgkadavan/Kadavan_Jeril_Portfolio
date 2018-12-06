@@ -1,35 +1,35 @@
 <?php
-// if (isset($_POST['submit'])) {
-// $name = $_POST['name'];
-// $mailFrom = $_POST['email'];
-// $message = $_POST['message'];
+if (isset($_POST['submit'])) {
+$name = $_POST['name'];
+$mailFrom = $_POST['email'];
+$message = $_POST['message'];
 
-// $mailTo = "jeril@jerilgkadavan.com";
-// $headers = "From: ".$mailFrom;
-// $txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
+$mailTo = "jeril@jerilgkadavan.com";
+$headers = "From: ".$mailFrom;
+$txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
 
-// mail($mailTo, $message, $txt, $headers);
-// header("Location:includes/contact.php?status=successful");
-// }
+mail($mailTo, $message, $txt, $headers);
+header("Location:includes/contact.php?status=successful");
+}
 
 
 
-var_dump($_POST);
+// var_dump($_POST);
 
-$fields = array(
-  'name' => array(
-    'type' => 'text',
-    'label' => 'Name'
-  ),
-  'email' => array(
-    'type' => 'email',
-    'label' => 'Email'
-  ),
-  'message' => array(
-    'type' => 'textarea',
-    'label' => 'Message'
-  )
-);
+// $fields = array(
+//   'name' => array(
+//     'type' => 'text',
+//     'label' => 'Name'
+//   ),
+//   'email' => array(
+//     'type' => 'email',
+//     'label' => 'Email'
+//   ),
+//   'message' => array(
+//     'type' => 'textarea',
+//     'label' => 'Message'
+//   )
+// );
 
 function send_email() {
 

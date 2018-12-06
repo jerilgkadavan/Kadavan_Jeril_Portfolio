@@ -24,7 +24,6 @@ Tools used during development phase:
 - SASS
 - Javascript Fetch API, to get data from backend databased
 - Fonts: Orbitron and Open Sans
-- https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js
 - https://greensock.com/ to animate data.
 - http://imakewebthings.com/waypoints/ to animate elements on scroll.
 
