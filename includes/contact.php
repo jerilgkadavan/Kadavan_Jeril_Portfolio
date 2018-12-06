@@ -1,4 +1,19 @@
 <?php
+// if (isset($_POST['submit'])) {
+// $name = $_POST['name'];
+// $mailFrom = $_POST['email'];
+// $message = $_POST['message'];
+
+// $mailTo = "jeril@jerilgkadavan.com";
+// $headers = "From: ".$mailFrom;
+// $txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
+
+// mail($mailTo, $message, $txt, $headers);
+// header("Location:includes/contact.php?status=successful");
+// }
+
+
+
 var_dump($_POST);
 
 $fields = array(
@@ -22,16 +37,16 @@ function send_email() {
     if(empty($_POST['email'])){
 
       // CHANGE BELOW PATH TO contact.php ----> /week10/admin/scripts/ --- OK
-        header('Location:includes/contact.php?status=error');
+        header("Location:includes/contact.php?status=error");
         exit();
     }
     if(!isset($_POST['message']) || !isset($_POST['email'])){
 
       // CHANGE BELOW PATH TO contact.php ----> /week10/admin/scripts/ --- OK
-        header('Location:includes/contact.php');
+        header("Location:includes/contact.php");
         exit();
     }
-    $to = 'jeril@jerilgkadavan.com'; //Hostpapa email
+    $to = "jeril@jerilgkadavan.com"; //Hostpapa email
     $subject = "Portfolio";
     $message = 'Message Body:'.$_POST['message'];
     $header = "";
@@ -41,7 +56,7 @@ function send_email() {
     if(mail($to, $subject, $message, $header)){
 
         // CHANGE BELOW PATH TO contact.php ----> /week10/admin/scripts/ --- OK
-        header('Location:includes/contact.php?status=successful');
+        header("Location:includes/contact.php?status=successful");
         exit();
     }
 
@@ -49,6 +64,7 @@ function send_email() {
   }
 
   send_email();
+
 
 
 ?>

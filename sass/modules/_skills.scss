@@ -1,32 +1,41 @@
-#skillPage{
+@media(min-width:468px){
+  
+    .container-2{
+      display:flex; 
+    justify-content:center; 
+      justify-content:space-between;
+    }
+      .skillicon{
+        width: 30%;
+      height: 56px;
+      margin: 0 auto;
+      justify-content:center; 
+      margin-bottom: 20px;
+  }
+
+    
+  }
+  .container-2-box{
+    flex-basis: 50%;  
     margin: 0 auto;
-}
+    text-align: center;
+    flex: 1;
+  
+  }
+  .skillicon{
+    width: 50%;
+      height: 86px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
 
 #skillHead{
-    margin-bottom: 100px;
+    margin-bottom: 160px;
 }
 
-#developmenIcon{
-    width: 6.063em;
-    margin-left: 182px;
-    margin-bottom: 30px;
-    
-}
-#designIcon{
-    width: 5.500em;
-    margin: auto;
-    margin-left: 182px;
-    margin-bottom: 30px;
-    
-}
-#animaitonIcon{
-    width: 6.625em;
-    margin: auto;
-    margin-left: 182px;
-    margin-bottom: 30px;
-    
-    
-}
+
 
 .threeSkillsHeading{
     font-weight: bold;
@@ -39,37 +48,12 @@
 }
 
 
-@media screen and (max-width: 600px)  {
-
-    #skillPage{
-        width: 174px;
-        margin: 0 auto;
-        margin-top: -44px;
+@media screen and (max-width: 375px)  {
+    #skillHead{
+        margin-bottom: 50px;
     }
-
-    #developmenIcon{
-        width: 69px;
-        margin: 0 auto;
-        margin-left: 42px;
-        margin-bottom: 25px;
-        
-        
-    }
-    #designIcon{
-        width: 55px;
-        margin: 0 auto;
-        margin-left: 52px;
-        margin-bottom: 25px;
-
-       
-        
-    }
-    #animaitonIcon{
-        width: 70px;
-        margin: 0 auto;
-        margin-bottom: 25px;
     
-    }
+    
     .threeSkillsHeading{
         font-weight: bold;
         text-align: center;
@@ -79,7 +63,7 @@
     }
     .developmentText{
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -92,22 +76,20 @@
     }
     
 }
-@media screen and (max-width: 700px){
-    #animaitonIcon{
-        width: 70px;
-        margin: 0 auto;
-        margin-left: 42px;
-    }
+@media screen and (max-width: 768px){
+
     .threeSkillsHeading{
         font-weight: bold;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         margin: 0 auto;
+        
        
     }
     .developmentText{
         text-align: center;
-        font-size: 10px;
+        font-size: 16px;
         margin: 0 auto;
+        margin-bottom: 25px;
     }
 }
