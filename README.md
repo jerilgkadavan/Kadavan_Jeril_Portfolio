@@ -6,20 +6,17 @@ My Portfolio
 ![image](images/header_img.png)
 
 
-- jerilgkadavan.com
+- https://jerilgkadavan.com
 
 
 ### Project Outline
 
 
-The main objective of this project is to provide a detail information about responsive web design. 
-It is represented in a simple and understandable manner where people can get a precise knowledge about web design. 
-The reason why responsive design got prevalent is that it clearly shows the comparison between 
-the internet usage of mobiles and desktop from 2009-2015. 
-The design and animation of the website is in such a way that people get attracted to its specific 
-features and engage themselves in learning more about the responsive web. 
+The Portfolio in front of you represents who I am and what specific tasks I manage to execute designs as per the requirements. Well, I am a passionate creative Web Designer who enjoys enhancing technical skills which can be used to help people effectively. This portfolio illustrates the advanced features I can manage. On the vertical scrolling web page, you will find my works included and at the bottom of the portfolio, you will see the social media links where you can contact me for further information related to projects. 
+
 
 Tools used during development phase:
+
 - Photoshop
 - Adobe Illustrator
 - PHP/MySQL
