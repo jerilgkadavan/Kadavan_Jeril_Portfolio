@@ -73,38 +73,38 @@ footer{
     font-size: 1em;
 }
 #footerNav li a:hover {
-    color: red;
+    color: $text_color_red;
     transition: linear .8s;
 }
 
 #mainFooter {
-    background-color: #1f1f1f;
+    background-color: $color_grey;
 }
 
-// MEDIA QUERY//
+@media screen and (max-width: 1280px){
 
-// @media screen and (max-width: 700px)  {
-
-
-
-// }
-
-// @media screen and (max-width: 600px)  {
-//     #socialMediaSec{
-//         align-items: center;
-//         margin-bottom: 25px;
-
-//     }
-//     .box1{
-//     flex: 1;
-//     }
-//     .box2{
-//         flex: 1;
-//     }
-//     .box3{
-//         flex: 1;
-//     }
-//     .box4{
-//         flex: 1;
-// }
-// }
+    #footerNav {
+        margin: 0 auto;
+        margin-top: 25spx;
+        width: 100%;
+    }
+    
+    #footerNav li {
+        display: inline;
+      
+    }
+    
+    #footerNav li a {
+        text-decoration: none;
+        font-family: "open-sans", "Arial", "Helvetica";
+        font-size: .4em;
+    }
+    #footerNav li a:hover {
+        color: $text_color_red;
+        transition: linear .8s;
+    }
+    
+    #mainFooter {
+        background-color: $color_grey;
+    }
+}

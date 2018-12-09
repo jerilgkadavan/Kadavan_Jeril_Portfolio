@@ -19,6 +19,7 @@ Tools used during development phase:
 
 - Photoshop
 - Adobe Illustrator
+- Adobe XD
 - PHP/MySQL
 - Gulp.js
 - SASS

@@ -209,6 +209,34 @@ height: 100vh;
 }
 
 
+@media screen and (max-width: 1280px){
+  
+  #tagLine{
+    width: 50%;
+    height: 500px;
+}
+#jeril{
+    width: 100%;
+
+}
+#mainNav ul li {
+  display: inline;
+  margin-left: 3em;
+
+}
+
+#mainNav ul li a {
+  color: $text_color_white;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+#mainNav ul li a:hover {
+color: $text_color_red;
+transition: .25s linear;
+}
+}
+
 @media screen and (max-width: 700px){
   
   #tagLine{
