@@ -9,13 +9,21 @@
 @import "modules/_contact";
 @import "modules/_footer";
 
+
 body, section, div, p, ul, li, a {
     font-family: 'Open Sans', sans-serif;
     margin-top: 5px;
     color: $text_color_white;
 }
-
-
+#secondPageHeader{
+    // background-color:black;
+    // position: fixed;
+    width: 1920px;
+}
+.copyrightSecondPage{
+    color: black;
+    margin-top: 50px;;
+}
 
 .hidden {
   display: none;
@@ -105,4 +113,5 @@ body, section, div, p, ul, li, a {
    
 
   }
+
 

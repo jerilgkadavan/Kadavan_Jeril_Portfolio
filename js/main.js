@@ -98,44 +98,44 @@ img.onclick = function(){
 }
 
 //handle click for myImg2
-img2.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[1].gallery_image;
-}
+// img2.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[1].gallery_image;
+// }
 
-//handle click for myImg3
-img3.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[2].gallery_image;
-}
-img4.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[3].gallery_image;
-}
+// //handle click for myImg3
+// img3.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[2].gallery_image;
+// }
+// img4.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[3].gallery_image;
+// }
 
-//handle click for myImg2
-img5.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[4].gallery_image;
-}
+// //handle click for myImg2
+// img5.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[4].gallery_image;
+// }
 
-//handle click for myImg3
-img6.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[5].gallery_image;
-}
+// //handle click for myImg3
+// img6.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[5].gallery_image;
+// }
 
-//handle click for myImg3
-img7.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[6].gallery_image;
-}
+// //handle click for myImg3
+// img7.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[6].gallery_image;
+// }
 
-//handle click for myImg3
-img8.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = 'images/'+myGallery[7].gallery_image;
-}
+// //handle click for myImg3
+// img8.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = 'images/'+myGallery[7].gallery_image;
+// }
 
 
 // Get the <span> element that closes the modal
@@ -147,4 +147,8 @@ span.onclick = function() {
 }
 
 
-
+let msg = document.querySelector("#msg");
+let submitbtn = document.querySelector("#sendButton");
+submitbtn.addEventListener('click', function() {
+    msg.style.display="block";
+})

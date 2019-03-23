@@ -20,6 +20,13 @@
 
 }
 
+.project-title{
+    font-size: 0.938rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
 .popContainer:hover .popOverlay {
     opacity: 0.9;
 
@@ -38,70 +45,93 @@
     text-align: center;
   
 }
-
+// .fullgallery{
+//     background-color: red;
+// }
 
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 #myImg2 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 #myImg3 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 #myImg4 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 #myImg5 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
 #myImg6 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 #myImg7 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 #myImg8 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.5;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 1;
+   
+}
 
-#myImg2:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 1;
+    }
 
-#myImg3:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 1;
+}
 
-#myImg4:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 1;
+   }
 
-#myImg5:hover {opacity: 0.7;}
+#myImg5:hover {opacity: 1;
+   }
 
-#myImg6:hover {opacity: 0.7;}
+#myImg6:hover {opacity: 1;
+ }
 
-#myImg7:hover {opacity: 0.7;}
+#myImg7:hover {opacity: 1;
+  }
 
-#myImg8:hover {opacity: 0.7;}
+#myImg8:hover {opacity: 1;
+  }
 
+  .imgBck:hover{
+    background-color: $text_color_red;
+    border-radius: 10px;
+}
 
 .modal {
     display: none; 
@@ -181,3 +211,87 @@
 }
     
 }
+
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+///////////////////          V2 PORT FOLIO PAGE CSS         ////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.homeIcone{
+    width: 60px;
+    margin-left: 328px;
+}
+
+
+.poster_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.columntwo{
+        margin-top: 20px;
+      padding: 60px;
+      color: black;
+      font-size: 35px;
+      font-family: 'Roboto', sans-serif;
+    }
+    .ProHeading{
+        font-size: 4.5rem;
+        font-style: bold;
+    }
+    .secondPageText_MainImg{
+        margin-left: 20px;
+    }
+      .mid_row{
+        display: flex;
+        margin-top: 150px;
+        align-items: center;
+        justify-content: center;
+  
+        
+    }
+      .secondPageTextHeading{
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        color: black;
+        font-style: normal;
+        padding: 50px;
+        flex: 1;
+      }
+      .secondPageTextPara{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        font-style: normal;
+        padding: 20px;
+        margin-top: 28px;
+        flex: 1;
+      }
+      .bottom_row{
+        display: flex;
+          margin-top: 200px;
+          align-items: center;
+          justify-content: center;
+          
+    }
+    .columnthree{
+  
+        flex: 5;
+    }
+
+    .columnfour{
+     
+  
+        flex: 5;
+    }
+
+    
